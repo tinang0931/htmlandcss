@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: 
+        linear-gradient(128.43deg, rgba(0, 53, 102, 0.92) 43.98%, rgba(0, 53, 102, 0.899983) 49.22%, rgba(0, 53, 102, 0.867118) 54.74%, rgba(0, 53, 102, 0.845939) 57.59%, rgba(0, 53, 102, 0.7636) 63.96%, rgba(0, 53, 102, 0) 170.25%),
+        url(CTU-Logo.jpg);
+    background-size: 170% 1050px; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+    width: 290px;
+    height: 350px;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.10);
+    color: #003566;
+    border-radius: 2px;
+    padding: 50px 40px;
+    margin-left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.wrapper h1{
+    font-size: 34px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    margin-bottom: 10px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none; 
+    outline: none; 
+    border-radius: 3px;
+    font-size: 12px;
+    color: black;
+    padding: 5px;
+    box-shadow: 0 0 3px black;
+}
+
+.input-box input::placeholder{
+    color: black;
+}
+
+.wrapper .forgot{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+    margin-left: 5%;
+}
+
+.forgot label input{
+    accent-color: black;
+    margin-left: 55%;
+}
+
+.forgot a{
+    color: black;
+    text-decoration: none;
+}
+
+.forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn{
+    width: 45%;
+    height: 20px;
+    background: #F48C06;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    color: black;
+    font-weight: 300;
+    margin-left: 55%;
+}
+
+.wrapper .register-link{
+    font: 9px;
+    color: black;
+    text-align: center;
+    margin-top: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.register-link p a{
+    color: #031d44;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
